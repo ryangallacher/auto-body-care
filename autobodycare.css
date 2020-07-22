@@ -1,0 +1,173 @@
+body {
+    font-family: montserrat;
+    background-color: #121212;
+}
+
+.content-container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1144px;
+}
+
+.logo {
+    text-decoration: none;
+}
+
+.value-prop {
+    margin: 0px 96px 0px 0px;
+}
+
+.mobile-cta {
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 8%;
+}
+
+.intro {
+    width:40%;
+}
+
+.benefits-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 15%;
+    grid-row-gap: 56px;
+    margin: 56px 4% 0 4%;
+}
+
+.benefit {
+    display: flex;
+}
+
+.icon {
+    width: 24px;
+    margin: 25px 24px 0px 0px;
+    align-self: start;
+}
+
+.benefit-text {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 40%;
+}
+
+h1, h2, h3 {
+    color: white;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    color: #cfcfcf;
+    line-height: 150%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+
+.nav-item {
+    margin: 0px 80px 0px 0px;
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    font-size: 32px;
+    color: #cfcfcf;
+}
+
+hr {
+    border: 1px solid #494949;
+}
+
+.value-prop-container {
+    display: flex;
+}
+
+.value-prop {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 64px;
+    font-weight: 400;
+}
+
+.mobile-cta {
+    font: size 24px;
+    font-weight: 700;
+}
+
+ul {
+    display: grid;
+}
+
+.testimonials-container {
+    display: flex;
+    padding: 0px;
+    margin-top: 16px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.testimonial {
+    background: #212121;
+    font-size: 14px;
+    width: 21%;
+    padding: 16px;
+    border-radius: 2px;
+}
+
+.testimonial-quote {
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.contact-details-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.business-hours {
+    width: 40%;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    padding-top: 96px;
+}
+
+.phone-number, .email {
+    display: flex;
+}
+
+footer {
+    background: #212121;
+}
+
+@media (max-width: 1024px) {
+    .testimonials-container {
+        display: grid;
+        text-align: center;
+        justify-content: space-between;
+    }
+}
