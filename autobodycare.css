@@ -27,12 +27,14 @@ body {
     width:40%;
 }
 
-.benefits-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 15%;
-    grid-row-gap: 56px;
-    margin: 56px 4% 0 4%;
+@media (min-width: 720px) {
+    .benefits-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 15%;
+        grid-row-gap: 56px;
+        margin: 56px 4% 0 4%;
+    }
 }
 
 .benefit {
@@ -94,14 +96,6 @@ hr {
     border: 1px solid #494949;
 }
 
-.value-prop-container {
-    display: flex;
-}
-
-.value-prop {
-    display: flex;
-    flex-direction: column;
-}
 
 h1 {
     font-size: 64px;
@@ -117,21 +111,45 @@ ul {
     display: grid;
 }
 
-.testimonials-container {
-    display: flex;
-    padding: 0px;
-    margin-top: 16px;
-    text-align: center;
-    justify-content: space-between;
-}
-
 .testimonial {
     background: #212121;
     font-size: 14px;
-    width: 21%;
-    padding: 16px;
-    border-radius: 2px;
+    padding: 24px;
+    margin: 8px 0px;
+    text-align: center;
 }
+
+@media (min-width: 560px) {
+    .testimonials-container {
+        display: grid;
+        grid-template-columns: 48% 48%;
+        grid-row: auto auto;
+        grid-column-gap: 2%;
+        grid-row-gap: 2%;
+}
+
+@media (min-width: 1024px) {
+    .testimonials-container {
+        display: flex;
+        padding: 0px;
+        margin-top: 16px;
+        text-align: center;
+        justify-content: space-between;
+    }
+
+    .testimonial {
+        background: #212121;
+        font-size: 14px;
+        width: 21%;
+        padding: 16px;
+        border-radius: 2px;
+    }
+
+    .value-prop-container {
+        display: flex;
+}
+
+
 
 .testimonial-quote {
     font-weight: 700;
@@ -164,10 +182,3 @@ footer {
     background: #212121;
 }
 
-@media (max-width: 1024px) {
-    .testimonials-container {
-        display: grid;
-        text-align: center;
-        justify-content: space-between;
-    }
-}
