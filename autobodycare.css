@@ -27,16 +27,6 @@ body {
     width:40%;
 }
 
-@media (min-width: 720px) {
-    .benefits-container {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-column-gap: 15%;
-        grid-row-gap: 56px;
-        margin: 56px 4% 0 4%;
-    }
-}
-
 .benefit {
     display: flex;
 }
@@ -63,11 +53,11 @@ h1, h2, h3 {
 }
 
 h2 {
-    font-size: 36px;
+    font-size: 1.5rem;
 }
 
 h3 {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }
 
 p {
@@ -78,7 +68,9 @@ p {
 nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-top: 48px;
+    background-color: grey;
 }
 
 .nav-item {
@@ -88,7 +80,7 @@ nav {
 }
 
 .logo {
-    font-size: 32px;
+    font-size: 2rem;
     color: #cfcfcf;
 }
 
@@ -98,12 +90,12 @@ hr {
 
 
 h1 {
-    font-size: 64px;
+    font-size: 3rem;
     font-weight: 400;
 }
 
 .mobile-cta {
-    font: size 24px;
+    font-size: 24px;
     font-weight: 700;
 }
 
@@ -126,6 +118,15 @@ ul {
         grid-row: auto auto;
         grid-column-gap: 2%;
         grid-row-gap: 2%;
+    }
+
+    h2 {
+        font-size: 2.25rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -147,22 +148,36 @@ ul {
 
     .value-prop-container {
         display: flex;
+    }
+
+    .contact-details-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .business-hours {
+        width: 40%;
+    }
 }
 
+@media (min-width: 720px) {
+    .benefits-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 15%;
+        grid-row-gap: 56px;
+        margin: 56px 4% 0 4%;
+    }
 
+    h1 {
+        font-size: 4rem;
+        font-weight: 400;
+    }
+}
 
 .testimonial-quote {
     font-weight: 700;
     color: #ffffff;
-}
-
-.contact-details-container {
-    display: flex;
-    justify-content: space-between;
-}
-
-.business-hours {
-    width: 40%;
 }
 
 .contact-details {
@@ -177,8 +192,3 @@ section {
 .phone-number, .email {
     display: flex;
 }
-
-footer {
-    background: #212121;
-}
-
