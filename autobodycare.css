@@ -11,6 +11,8 @@ body {
 
 .logo {
     text-decoration: none;
+    font-size: 1.5rem;
+    color: #cfcfcf;
 }
 
 .value-prop {
@@ -21,10 +23,6 @@ body {
     color: white;
     font-size: 1.5rem;
     margin-top: 8%;
-}
-
-.intro {
-    width:40%;
 }
 
 .benefit {
@@ -65,23 +63,27 @@ p {
     line-height: 150%;
 }
 
+header {
+    background: blue;
+    z-index: 999;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 48px;
-    background-color: grey;
 }
 
 .nav-item {
-    margin: 0px 80px 0px 0px;
+    margin-right: 32px;
     text-decoration: none;
     color: white;
 }
 
-.logo {
-    font-size: 2rem;
-    color: #cfcfcf;
+.menu {
+    display: flex;
+    list-style-type: none;
 }
 
 hr {
@@ -127,6 +129,14 @@ ul {
     h3 {
         font-size: 1.5rem;
     }
+
+    .logo {
+        font-size: 2rem;
+    }
+
+    .intro {
+        width:40%;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -155,7 +165,7 @@ ul {
         justify-content: space-between;
     }
 
-    .business-hours {
+    .how-to-contact {
         width: 40%;
     }
 }
@@ -172,6 +182,10 @@ ul {
     h1 {
         font-size: 4rem;
         font-weight: 400;
+    }
+
+    .nav-item {
+        margin-right: 80px;
     }
 }
 
