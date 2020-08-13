@@ -1,6 +1,6 @@
 body {
     font-family: nunito, sans-serif;
-    background-color: #121212;
+    background: radial-gradient(farthest-corner at 40px 40px,#252525, #121212);
 }
 
 .content-container {
@@ -44,7 +44,7 @@ img {
     width: 40%;
 }
 
-h1, h2, h3 {
+h1, h2, h3, .email-address {
     color: white;
     font-weight: 400;
     margin-bottom: 8px;
@@ -54,7 +54,7 @@ h2 {
     font-size: 1.5rem;
 }
 
-h3 {
+h3, .email-address {
     font-size: 1.25rem;
 }
 
@@ -64,7 +64,6 @@ p {
 }
 
 header {
-    background: blue;
     z-index: 999;
 }
 
@@ -129,7 +128,7 @@ h1 {
         font-size: 2.25rem;
     }
 
-    h3 {
+    h3, .email-address {
         font-size: 1.5rem;
     }
 
@@ -139,6 +138,10 @@ h1 {
 
     .intro {
         width:40%;
+    }
+
+    .how-to-contact {
+        max-width: 480px;
     }
 }
 
@@ -167,7 +170,6 @@ h1 {
 
     .how-to-contact {
         width: 40%;
-        margin-left: 4%;
     }
 
     .contact-details {
@@ -206,8 +208,8 @@ h1 {
     flex-direction: column;
 }
 
-section {
-    padding-top: 96px;
+section  {
+    margin-top: 80px;
 }
 
 .phone-number, .email {
@@ -220,8 +222,7 @@ sup {
 
 .testimonial-customer {
     height: 48px;
-    background: #313131;
-
+    background: #303030;
 }
 
 .testimonial-quote-wrapper {
@@ -229,4 +230,9 @@ sup {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.email-address {
+    text-decoration: none;
+    margin-top: 22px;
 }
