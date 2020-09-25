@@ -1,6 +1,7 @@
 body {
     font-family: nunito, sans-serif;
     background: radial-gradient(farthest-corner at 40px 40px,#262626, #121212);
+    margin: 0px;
 }
 
 .content-container {
@@ -9,14 +10,23 @@ body {
     max-width: 1144px;
 }
 
+.value-prop-container {
+    align-items: center;
+    margin-top: 64px;
+}
+
 .value-prop {
     margin: 0px 96px 0px 0px;
+}
+
+.value-txt {
+    margin-top: 0;
 }
 
 .mobile-cta {
     color: white;
     font-size: 1.5rem;
-    margin-top: 8%;
+    margin: 48px 0px 0px 0px;
 }
 
 .benefit {
@@ -59,13 +69,19 @@ p {
 
 header {
     z-index: 999;
+    background: #232323;
+    position: sticky;
+    top: 0px;
+    margin: 0px;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 48px;
+    width: 90%;
+    margin: auto;
+    max-width: 1144px;
 }
 
 .nav-item {
@@ -85,7 +101,7 @@ hr {
 
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 4rem;
     font-weight: 400;
 }
 
@@ -106,6 +122,10 @@ h1 {
 
 .contact-details {
     margin-top: 48px;
+}
+
+.logo {
+    margin-top: 8px;
 }
 
 @media (min-width: 560px) {
@@ -140,6 +160,17 @@ h1 {
 
     .logo-image {
         width: 200px;
+    }
+}
+
+@media (max-width: 720px){
+    .time {
+        margin-right: 40%
+    }
+
+    .value-prop-container {
+        align-items: flex-start;
+        margin-top: 64px;
     }
 }
 
@@ -182,8 +213,10 @@ h1 {
     }
 
     h1 {
-        font-size: 4rem;
+        font-size: 4.5rem;
         font-weight: 400;
+        margin-top: 0;
+        line-height: 120%;
     }
 
     .nav-item {
@@ -223,7 +256,7 @@ sup {
 
 .testimonial-customer {
     height: 48px;
-    background: #303030;
+    background: #282828;
 }
 
 .testimonial-quote-wrapper {
@@ -242,14 +275,6 @@ sup {
 .small-heading {
     font-size: 14px;
     margin: 0px;
-}
-
-footer {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 80px;
-    padding-bottom: 24px;
-    align-items: flex-end;
 }
 
 sup {
@@ -271,13 +296,45 @@ span {
     font-weight: 700;
 }
 
-.business-hours {
-    margin: 0px;
-    width: 25%;
+.divider {
+    visibility: hidden;
 }
 
 .mon-thurs, .friday {
     display: flex;
     justify-content: space-between;
     color: white;
+
+}
+
+footer {
+    margin-top: 80px;
+}
+
+@media (min-width: 715px) {
+    .business-hours {
+        width: 35%;
+    }
+    
+    .divider {
+        visibility: visible;
+    }
+    
+    footer {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 80px;
+        padding-bottom: 24px;
+        align-items: flex-end;
+    }
+
+    .mon-thurs, .friday {
+        justify-content: space-between;
+    }
+}
+
+@media (min-width: 1105px) {
+    .business-hours {
+        width: 25%;
+    }
 }
