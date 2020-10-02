@@ -12,19 +12,15 @@ body {
 
 .value-prop-container {
     align-items: center;
-    margin-top: 64px;
-}
-
-.value-prop {
-    margin: 0px 96px 0px 0px;
+    margin-top: 48px;
 }
 
 .value-txt {
-    margin-top: 0;
+    margin-top: 0px;
 }
 
 .mobile-cta {
-    color: white;
+    color: rgb(230, 230, 230);
     font-size: 1.5rem;
     margin: 0px;
 }
@@ -33,10 +29,14 @@ body {
     display: flex;
 }
 
-.icon {
+.icon, .pound-icon {
     width: 24px;
     margin: 25px 24px 0px 0px;
     align-self: start;
+}
+
+.pound-icon {
+    margin-top: 29px;
 }
 
 .benefit-text {
@@ -44,12 +44,8 @@ body {
     flex-direction: column;
 }
 
-#hero-image {
-    margin: 0px 4%;
-}
-
 h1, h2, h3, .email-address {
-    color: white;
+    color: rgb(230, 230, 230);
     font-weight: 400;
     margin-bottom: 8px;
 }
@@ -85,9 +81,9 @@ nav {
 }
 
 .nav-item {
-    margin-right: 32px;
+    margin-right: 0px;
     text-decoration: none;
-    color: white;
+    color: rgb(230, 230, 230);
 }
 
 .menu {
@@ -103,6 +99,8 @@ hr {
 h1 {
     font-size: 4rem;
     font-weight: 400;
+    line-height: 120%;
+    margin-top: 24px;
 }
 
 .mobile-cta {
@@ -111,8 +109,8 @@ h1 {
 }
 
 .tel {
+    color:rgb(240, 240, 240);
     text-decoration: none;
-    color: white;
 }
 
 .testimonial-card {
@@ -127,6 +125,11 @@ h1 {
 
 .contact-details {
     margin-top: 48px;
+}
+
+.icon-small {
+    width: 14px;
+    margin-right: 8px;
 }
 
 .logo {
@@ -175,7 +178,7 @@ h1 {
 
     .value-prop-container {
         align-items: flex-start;
-        margin-top: 64px;
+        margin-top: 0px;
     }
 }
 
@@ -198,6 +201,10 @@ h1 {
         justify-content: space-between;
     }
 
+    .hero-image {
+        margin: 0px;
+    }
+
     .how-to-contact {
         width: 40%;
     }
@@ -209,7 +216,30 @@ h1 {
 
     .mobile-cta {
         margin: 48px 0px 0px 0px;
+        font-size: 1.75rem;
     }
+
+    
+.hero-grid {
+    display: grid;
+    grid-template-columns: 2fr 1.5fr 3fr;
+    max-width: 658px;
+}
+
+.hero-image {
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 1;
+    align-self: center;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0px 5px 60px rgba(15, 15, 15, 40%);
+}
+
+.hero-image-after {
+    grid-column: 4 / span 2;
+    grid-row: 1 / span 1;
+    box-shadow: 0px 5px 60px rgba(15, 15, 15, 40%);
+}
 }
 
 @media (min-width: 720px) {
@@ -218,14 +248,14 @@ h1 {
         grid-template-columns: repeat(2, 1fr);
         grid-column-gap: 15%;
         grid-row-gap: 56px;
-        margin: 56px 4% 0 4%;
+        margin: 24px 4% 0 4%;
     }
 
     h1 {
         font-size: 4.5rem;
         font-weight: 400;
-        margin-top: 0;
-        line-height: 120%;
+        margin-top: 0px;
+        line-height: 115%;
     }
 
     .nav-item {
@@ -235,9 +265,10 @@ h1 {
 
 .testimonial-quote {
     font-weight: 700;
-    color: #ffffff;
+    color: rgb(230, 230, 230);
     margin: 16px;
     text-align: center;
+    font-size: 1rem;
 }
 
 .contact-details {
@@ -302,7 +333,8 @@ sup {
 }
 
 span {
-    font-weight: 700;
+    color: ababab;
+    font-weight: 400;
 }
 
 .divider {
@@ -312,7 +344,7 @@ span {
 .mon-thurs, .friday {
     display: flex;
     justify-content: space-between;
-    color: white;
+    color: rgb(230, 230, 230);
 
 }
 
@@ -354,4 +386,14 @@ footer {
     .business-hours {
         width: 25%;
     }
+}
+
+a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #ababab;
+    text-decoration: underline;
 }
