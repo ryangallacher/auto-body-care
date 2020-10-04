@@ -14,8 +14,12 @@
         <nav role="navigation" aria-label="main menu">
             <a href="index.html" class="logo"><img src="images/logo080114.png" alt="logo" width="160px" class="logo-image"></a>
             <ul class="menu">
-                <li><a href="gallery.html" class="nav-item">Gallery</a></li>
-                <li><a href="tel:07770737833" class="nav-item"><img class="icon-small" src="icons/phone 2.svg" width="18px">07770737833</a></li>
+                <div class="nav-btn">
+                    <li class="gallery-btn"><a href="gallery.html" class="nav-item-gallery">Gallery</a></li>
+                </div>
+                <div class="nav-btn">
+                    <li class="nav-tel"><a href="tel:07770737833" class="nav-item"><img class="icon-small" src="icons/phone 2.svg" width="18px">07770737833</a></li>
+                </div>
             </ul>
         </nav>
     </header>
@@ -33,10 +37,21 @@
         </section>
 
         <section class="can-help">
-            <h2>What we do</h2>
-            <p class="intro">We specialise in Paintless Dent Removal (PDR), a highly skilled process which removes dents and dings.
-                If you have _ Have a look at our Gallery section to see more examples of our previous work.</p>
-            <!--"from this to this in about an hour"-->
+            <div class="our-service-container">
+                <div class="our-service">
+                    <h3 class="service-headline">What we do</h3>
+                    <p>We specialise in Paintless Dent Removal (PDR), a highly skilled process which removes minor dings and dents from vehicle bodywork, without the costly and time consuming need for traditional bodyshop repairs.</p>
+                    <p>The car trade are our main customers, but we always try our best to serve the general public as well.</p>
+                </div>
+                <div class="suitable">
+                    <h3 class="service-headline">Is my dent suitable for PDR?</h3>
+                    <p>PDR is suitable for most non-collision dents up to about the size of a tennis ball, providing the paint has not been broken - the type of dent your car picks up in car parks. Accident damage dents, sharp dents, or dents where the paint is damaged are NOT suitable for PDR.</p>
+                    <hr>
+                    <div class="gallery-link-container">
+                        <a href="gallery.html" class="gallery-link">See examples of our work <img src="icons/arrow-thin-right 2.svg" class="icon-arrow"></a>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <section>
@@ -47,12 +62,12 @@
                         <div class="benefit-text">
                             <h3>Low Cost</h3>
                             <p>Repairs can be done at a fraction of the cost of a traditional bodyshop.
-                            Dents can be repaired from as little as £45.</p>
+                                Price depends on size and severity of the dent, location on vehicle and travel time involved. However, dents can be repaired from as little as £45.</p>
                         </div>
                     </div>
 
                     <div class="benefit">
-                        <img class="icon" src="icons/travel-car 2.svg">
+                        <img class="icon-car" src="icons/travel-car 2.svg">
                         <div class="benefit-text">
                             <h3>No painting, no sanding, no filler</h3>
                             <p>We preserve the vehicle’s original factory finish, with no colour mis-match.</p>
@@ -68,7 +83,7 @@
                     </div>
 
                     <div class="benefit">
-                        <img class="icon" src="icons/timer 2.svg">
+                        <img class="icon-timer" src="icons/timer 2.svg">
                         <div class="benefit-text">
                             <h3>Quick Service</h3>
                             <p>The Paintless Dent Removal process usually takes anywhere from 15 minutes
@@ -88,6 +103,7 @@
                         </p>
                     </div>
                     <div class="testimonial-customer">
+                        <hr class="testimonial-divider">
                         <p><span>- Mrs Smith, Renfrew</span></p>
                     </div>
                 </div>
@@ -97,6 +113,7 @@
                         <p class="testimonial-quote">"Another excellent job.”</p>
                     </div>
                     <div class="testimonial-customer">
+                        <hr class="testimonial-divider">
                         <p><span>- Mr Bruce, Paisley</span></p>
                     </div>
                 </div>
@@ -106,6 +123,7 @@
                         <p class="testimonial-quote">"Delighted with the job on my 10 day old car, prompt service too.”</p>
                     </div>
                     <div class="testimonial-customer">
+                        <hr class="testimonial-divider">
                         <p><span>- Mrs Moore, Erskine</span></p>
                     </div>
                 </div>
@@ -115,6 +133,7 @@
                         <p class="testimonial-quote">"That's amazing."</p>
                     </div>
                     <div class="testimonial-customer">
+                        <hr class="testimonial-divider">
                         <p><span>- Mr McLelland, Johnstone</span></p>
                     </div>
                 </div>
