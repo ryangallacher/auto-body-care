@@ -13,7 +13,9 @@
             <nav role="navigation" aria-label="main menu">
                 <a href="index.html" class="logo"><img src="images/logo080114.png" alt="logo" width="160px" class="logo-image"></a>
                 <ul class="menu">
-                    <li><a href="index.html" class="nav-item">Home</a></li>
+                    <a href="index.html" class="nav-item-gallery">
+                        <li class="nav-btn">Home</li>
+                    </a>
                     <li class="nav-tel"><a href="tel:07770737833" class="nav-item"><img class="icon-small" src="icons/phone 2.svg" width="18px">07770737833</a></li>
                 </ul>
             </nav>
@@ -23,14 +25,21 @@
             <h1 class="gallery-headline">Gallery</h1>
             <p>Here are some examples of dents we have repaired.</p>
             <section class="images-container">
-                <img src="images/IMG_20160223_123052957.jpg" class="" width="560px" alt="">
-                <img src="images/IMG_20160223_133748599.jpg" class="" width="560px" alt="">
-                <img src="images/IMG_20160613_091629168_HDR.jpg" class="" width="560px" alt="">
-                <img src="images/IMG_20160613_102230162_HDR.jpg" class="" width="560px" alt="">
-                <img src="images/IMG_20150917_125003044_HDR.jpg" class="" width="560px" alt="">
-                <img src="images/IMG_20150917_133511954_HDR.jpg" class="" width="560px" alt="">
-                <img src="images/IMG_20161122_121112005.jpg" class="" width="560px" alt="">
-                <img src="images/IMG_20161122_122707440.jpg" class="" width="560px" alt="">
+                <div class="before-after-img">
+                    <picture>
+                        <source media="(min-width: 600px)"
+                                srcset="images/Final images/Gallery/Blue/tinified/before blue 314px.jpg 314w,
+                                        images/Final images/Gallery/Blue/tinified/before blue 512px.jpg 512w,
+                                        images/Final images/Gallery/Blue/tinified/before blue 768px.jpg 768w,
+                                        images/Final images/Gallery/Blue/tinified/before blue 1152px.jpg 1152w,
+                                        images/Final images/Gallery/Blue/tinified/before blue 1728px.jpg 1728w,
+                                        images/Final images/Gallery/Blue/tinified/before blue full size 2592px.jpg 2592w">
+                        <source srcset="images/Final images/Gallery/Blue/before blue square 256px.jpg 256w
+                                        images/Final images/Gallery/Blue/before blue square 348px.jpg 348w">
+                        <img src="images/Final images/Gallery/Blue/before blue 768px.jpg" width="560px" height="" alt="" class="blue-before">
+                    </picture>
+                </div>
+           
             </section>
             <section>
                 <h2>Contact</h2>

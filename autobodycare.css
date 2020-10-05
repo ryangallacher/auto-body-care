@@ -38,7 +38,7 @@ body {
 }
 
 .mobile-cta {
-    color: rgb(230, 230, 230);
+    color: rgb(240, 240, 240);
     font-size: 1.5rem;
     margin: 0px;
 }
@@ -71,7 +71,7 @@ body {
 
 .gallery-link {
     font-size: 18px;
-    color: rgb(230, 230, 230);
+    color: rgb(240, 240, 240);
     text-decoration: none;
 }
 
@@ -85,7 +85,7 @@ body {
 }
 
 h1, h2, h3, .email-address {
-    color: rgb(230, 230, 230);
+    color: rgb(240, 240, 240);
     font-weight: 400;
     margin-bottom: 8px;
 }
@@ -99,7 +99,7 @@ h3, .email-address {
 }
 
 p {
-    color: #cfcfcf;
+    color: #c4c4c4;
     line-height: 150%;
 }
 
@@ -124,21 +124,18 @@ nav {
 .nav-item, .nav-item-gallery {
     margin-right: 0px;
     text-decoration: none;
-    color: rgb(230, 230, 230);
+    color: rgb(240, 240, 240);
 }
 
 .menu {
     display: flex;
     list-style-type: none;
+    margin: 8px 0px;
 }
 
 .nav-btn {
     padding: 8px 16px;
-
-}
-
-.gallery-btn {
-    margin: auto;
+    margin: 0px;
 }
 
 hr {
@@ -232,6 +229,16 @@ h1 {
     }
 }
 
+@media (max-width: 824px) {
+    .our-service {
+        padding-bottom: 16px;
+    }
+
+    .suitable {
+        padding-top: 16px;
+    }
+}
+
 @media (max-width: 720px){
     .value-prop-container {
         align-items: flex-start;
@@ -317,6 +324,12 @@ h1 {
         margin-top: 0px;
         line-height: 115%;
     }
+
+    .before-after-img {
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+    }
 }
 
 .testimonial-divider {
@@ -325,7 +338,7 @@ h1 {
 }
 
 .testimonial-quote {
-    color: rgb(230, 230, 230);
+    color: rgb(240, 240, 240);
     margin: 16px;
     text-align: center;
     font-size: 1rem;
@@ -401,8 +414,7 @@ span {
 .mon-thurs, .friday {
     display: flex;
     justify-content: space-between;
-    color: rgb(230, 230, 230);
-
+    color: rgb(240, 240, 240);
 }
 
 footer {
@@ -443,9 +455,13 @@ a:active {
 
 .gallery-headline {
     margin-top: 64px;
-    font-size: 1.5rem;
+    font-size: 2.25rem;
 }
 
 .images-container {
     margin-top: 40px;
+}
+
+.blue-before {
+    width: 100%;
 }
