@@ -244,7 +244,7 @@ h1 {
     }
 
     .our-service, .suitable {
-        max-width: 41%;
+        max-width: 49%;
     }
 }
 
@@ -353,6 +353,15 @@ h1 {
     .hero-grid {
         display: flex;
         justify-content: space-between;
+    }
+
+    /*this is supposedly bad for accessibility, change? */
+    .image-toggle {
+        display: none;
+    }
+
+    .carousel-container {
+        display: none;
     }
 }
 
@@ -518,9 +527,50 @@ a:active {
     }
   }
 
+@media (max-width: 715px) {
+    .hero-image {
+        width: 100%;
+    }
+
+    .hero-image-after {
+        width: 100%;
+    }
+
+    /*this is supposedly bad for accessibility, change */
+    .hero-image-after, .hero-image {
+        display: none;
+    }
+
+    .image-toggle {
+        display: flex;
+        justify-content: space-between;
+        max-width: 480px;
+        margin-top: 0px;
+    }
+
+    .before-btn {
+        background: rgba(255, 255, 255, 10%);
+        width: 100%;
+        color: white;
+        font-weight: 600;
+        padding: 16px 0px;
+    }
+
+    .after-btn {
+        background: rgba(255, 255, 255, 5%);
+        width: 100%;
+        color: #c4c4c4;
+        font-weight: 600;
+        padding: 16px 0px;
+    }
+}
+
   * {
     box-sizing: border-box;
   }
+
+  
+  /* css for image carousel below */
   
   /* Position the image container (needed to position the left and right arrows) */
   .container {
@@ -605,4 +655,10 @@ a:active {
     opacity: 1;
   }
 
+/*end of carousel styling*/
+
+  /*import css only carousel styling here*/
+  /*end of css only carousel styling*/
+
+  
   
