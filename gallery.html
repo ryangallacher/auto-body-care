@@ -86,7 +86,21 @@
                     <img class="demo cursor" src="images/final-images/Gallery/White/before white full size 2592px.jpg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
                   </div>
                 </div>
-              </div>
+            </div>
+
+
+            <p>
+                This is the first component.
+                <!-- We will put our React component inside this div. -->
+                <div class="like_button_container" data-commentid="1"></div>
+            </p>
+
+            <p>
+                This is the second component.
+                <!-- We will put our React component inside this div. -->
+                <div class="like_button_container" data-commentid="2"></div>
+            </p>
+
 
             <section>
                 <h2>Contact</h2>
@@ -135,6 +149,13 @@
                 <sup>&#169;Auto Body Care 2007 - 2020. All rights reserved.</sup>
             </footer>
         </div>
+         <!-- Load React. -->
+        <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+        <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+        <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+        <!-- Load our React component. -->
+        <script src="like_button.js"></script>
+
         <!--Javascript for image gallery below this line. Code available at https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp-->
         <script>
              var slideIndex = 1;
