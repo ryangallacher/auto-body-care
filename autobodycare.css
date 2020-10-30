@@ -51,9 +51,15 @@ body {
     display: flex;
 }
 
-.icon, .pound-icon {
+.icon {
     width: 24px;
     margin: 25px 24px 0px 0px;
+    align-self: start;
+}
+
+.pound-icon {
+    width: 25px;
+    margin: 25px 34px 0px 0px;
     align-self: start;
 }
 
@@ -64,7 +70,8 @@ body {
 }
 
 .icon-car {
-    width: 28px;
+    width: 24px;
+    min-width: 24px;
     margin: 25px 24px 0px 0px;
     align-self: start;
 }
@@ -667,8 +674,9 @@ a:active {
 
 /*end of carousel styling*/
 
-  /*import css only carousel styling here*/
-  /*end of css only carousel styling*/
+.before-after-container {
+    margin-top: 56px;
+}
 
   
   
