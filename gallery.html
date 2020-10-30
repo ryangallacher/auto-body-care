@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gallery - Auto Body Care</title>
+        <link rel="stylesheet" href="autobodycare.css">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <a href="index.html" class="logo"><img src="images/logo080114.png" alt="logo" width="160px" class="logo-image"></a>
+                <ul class="menu">
+                    <a href="index.html" class="nav-item-home_gallery">
+                        <li class="nav-btn">Home</li>
+                    </a>
+                    <a href="gallery.html" class="nav-item-gallery_current">
+                        <li class="nav-btn">Gallery</li>
+                    </a>
+                </ul>
+            </nav>
+        </header>
+        
+        <div class="content-container">
+            <h1 class="gallery-headline">Gallery</h1>
+            <p class="gallery-text">Here are some examples of dents we have repaired.</p>
+            
+            <div class="container">
+
+                <!-- Full-width images with number text -->
+                <div class="mySlides">
+                  <div class="numbertext">1 / 6</div>
+                    <img src="images/final-images/Gallery/Blue/both before and after 1192px.jpg" style="width:100%">
+                </div>
+              
+                <div class="mySlides">
+                  <div class="numbertext">2 / 6</div>
+                    <img src="images/final-images/Gallery/Black/black both before and after 1192px.jpg" style="width:100%">
+                </div>
+              
+                <div class="mySlides">
+                  <div class="numbertext">3 / 6</div>
+                    <img src="images/final-images/Gallery/Nissan/nissan both before and after 1192px.jpg" style="width:100%">
+                </div>
+              
+                <div class="mySlides">
+                  <div class="numbertext">4 / 6</div>
+                    <img src="images/final-images/Gallery/Silver/silver both before and after 1192px.jpg" style="width:100%">
+                </div>
+              
+                <div class="mySlides">
+                  <div class="numbertext">5 / 6</div>
+                    <img src="images/final-images/Gallery/White/white both before and after 1192px.jpg" style="width:100%">
+                </div>
+              
+                <div class="mySlides">
+                  <div class="numbertext">6 / 6</div>
+                    <img src="img_snow_wide.jpg" style="width:100%">
+                </div>
+              
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+              
+                <!-- Image text -->
+                <div class="caption-container">
+                </div>
+              
+                <!-- Thumbnail images -->
+                <div class="row">
+                  <div class="column">
+                    <img class="demo cursor" src="images/final-images/Gallery/Blue/before%20blue%20768px.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+                  </div>
+                  <div class="column">
+                    <img class="demo cursor" src="images/final-images/Gallery/Black/before%20black%20768px.jpg" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+                  </div>
+                  <div class="column">
+                    <img class="demo cursor" src="images/final-images/Gallery/Nissan/before nissan full size 2560px.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+                  </div>
+                  <div class="column">
+                    <img class="demo cursor" src="images/final-images/Gallery/Silver/before silver full size 2592px.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+                  </div>
+                  <div class="column">
+                    <img class="demo cursor" src="images/final-images/Gallery/White/before white full size 2592px.jpg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+                  </div>
+                </div>
+            </div>
+
+            <p>
+                <!-- We will put our React component inside this div. -->
+                <div class="before-after-container" 
+                     data-before="images/final-images/Gallery/Silver/before%20silver%20768px.jpg"
+                     data-after="images/final-images/Gallery/Silver/after%20silver%20768px.jpg">
+                </div>
+            </p>
+
+            <p>
+                <!-- We will put our React component inside this div. -->
+                <div class="before-after-container" 
+                     data-before="images/final-images/Gallery/Black/tinified/before%20black%20768px.jpg"
+                     data-after="images/final-images/Gallery/Black/tinified/after%20black%20768px.jpg">
+                </div>
+            </p>
+
+            <p>
+                <!-- We will put our React component inside this div. -->
+                <div class="before-after-container" 
+                     data-before="images/final-images/Gallery/Blue/tinified/before%20blue%20768px.jpg"
+                     data-after="images/final-images/Gallery/Blue/tinified/after%20blue%20768px.jpg">
+                </div>
+            </p>
+
+            <p>
+                <!-- We will put our React component inside this div. -->
+                <div class="before-after-container" 
+                     data-before="images/final-images/Gallery/Nissan/before%20nissan%20768px.jpg"
+                     data-after="images/final-images/Gallery/Nissan/after%20nissan%20768px.jpg">
+                </div>
+            </p>
+
+            <p>
+                <!-- We will put our React component inside this div. -->
+                <div class="before-after-container" 
+                     data-before="images/final-images/Gallery/White/before%20white%20768px.jpg"
+                     data-after="images/final-images/Gallery/White/after%20white%20768px.jpg">
+                </div>
+            </p>
+            
+            <section>
+                <h2>Contact</h2>
+                <div class="contact-details-container">
+                    <div class="how-to-contact">
+                        <p>As we are a mobile service we are on the move most of the time,
+                            so please phone us on the mobile number or, if you prefer,
+                            text us your details and we'll phone you back.
+                            If you wish, you can email us your query or pictures of your dent.
+                            Please state where you are located if looking for a quote.
+                        </p>
+                    </div>
+                    <div class="contact-details">
+                        <div class="phone-number">
+                            <img class="icon" src="icons/phone 2.svg">
+                            <div>
+                                <p class="small-heading">Phone (mobile)</p>
+                                <h3 class="number"><a href="tel:07770737833" class="tel">07770737833</a></h3>
+                            </div>
+                        </div>
+                        <div class="email">
+                            <img class="icon" src="icons/at-symbol 2.svg">
+                            <div>
+                                <p class="small-heading">Email</p>
+                                <a href="mailto: info@autobodycare.biz" class="email-address">info@autobodycare.biz</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+            <footer>
+                <div class="business-hours">
+                    <p class="small-heading">Hours of business:</p>
+                    <hr>
+                    <div class="mon-thurs">
+                        <p class="mon-thurs-text">Mon to Thurs</p> 
+                        <p class="time">9:00am - 5:00pm</p>
+                    </div>
+                    <div class="friday">
+                        <p class="fri-text">Friday</p>
+                        <p class="time">9:00am - 4:00pm</p>
+                    </div>
+                </div>
+                <sup>&#169;Auto Body Care 2007 - 2020. All rights reserved.</sup>
+            </footer>
+        </div>
+         <!-- Load React. -->
+        <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+        <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+        <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+        <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+        <!-- Load our React component. -->
+        <script src="like_button.js"></script>
+        <script src="before_after.js" type="text/babel"></script>
+
+        <!--Javascript for image gallery below this line. Code available at https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp-->
+        <script>
+             var slideIndex = 1;
+            showSlides(slideIndex);
+
+            // Next/previous controls
+            function plusSlides(n) {
+            showSlides(slideIndex += n);
+            }
+
+            // Thumbnail image controls
+            function currentSlide(n) {
+            showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("demo");
+                var captionText = document.getElementById("caption");
+                if (n > slides.length) {slideIndex = 1}
+                if (n < 1) {slideIndex = slides.length}
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].className += " active";
+            captionText.innerHTML = dots[slideIndex-1].alt;
+            }
+        </script>
+       
+    </body>
+
+</html>
