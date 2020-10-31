@@ -659,6 +659,7 @@ a:active {
   .prev:hover,
   .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
+    text-decoration: none;
   }
   
   /* Number text (1/3 etc) */
