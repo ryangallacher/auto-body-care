@@ -51,7 +51,7 @@ body {
     display: flex;
 }
 
-.icon {
+.icon, .icon-location {
     width: 24px;
     margin: 25px 24px 0px 0px;
     align-self: start;
@@ -180,7 +180,7 @@ h1 {
     font-weight: 600;
 }
 
-.tel {
+.tel, .value-prop-tel {
     color:rgb(240, 240, 240);
     text-decoration: none;
 }
@@ -518,6 +518,21 @@ a:active {
     .tel, .email-address {
         font-size: 1.25rem;
     }
+
+    .icon {
+        width: 18px;
+        margin-right: 16px;
+    }
+}
+
+@media (max-width: 328px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    .mobile-cta {
+        font-size: 1.25rem;
+    }
 }
 
 .gallery-text {
@@ -579,6 +594,19 @@ a:active {
         font-weight: 600;
         padding: 16px 0px;
         border: none;
+    }
+}
+
+@media (max-width: 410px) {
+    .logo-image {
+        width: 144px;
+    }
+}
+
+@media (max-width: 390px) {
+    .nav-item-gallery_current, .nav-item-home {
+        display: none;
+        margin: 0px;
     }
 }
 
@@ -656,7 +684,7 @@ a:active {
     clear: both;
   }
   
-  /* Six columns side by side */
+  /* 5 columns side by side */
   .column {
     float: left;
     width: 20%;
