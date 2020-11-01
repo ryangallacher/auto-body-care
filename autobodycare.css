@@ -1,748 +1,767 @@
 html {
-    background-color: #212121;
+  background-color: #212121;
 }
 
 body {
-    font-family: nunito, sans-serif;
-    background: radial-gradient(farthest-corner at 40px 40px,#262626, #121212);
-    margin: 0px;
+  font-family: nunito, sans-serif;
+  background: radial-gradient(farthest-corner at 40px 40px, #262626, #121212);
+  margin: 0px;
 }
 
 .content-container {
-    width: 90%;
-    margin: 0 auto;
-    max-width: 1144px;
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1144px;
 }
 
 .value-prop-container {
-    align-items: center;
-    margin-top: 48px;
+  align-items: center;
+  margin-top: 48px;
 }
 
-.our-service, .suitable {
-    background: rgba(255, 255, 255, 5%);
-    padding: 24px 4%;
+.our-service,
+.suitable {
+  background: rgba(255, 255, 255, 5%);
+  padding: 24px 4%;
 }
 
 .gallery-link-container {
-    margin: 16px 0px 0px 0px;
+  margin: 16px 0px 0px 0px;
 }
 
 .service-headline {
-    margin-top: 0px;
+  margin-top: 0px;
 }
 
 .icon-arrow {
-    width: 14px;
-    margin-left: 4px;
+  width: 14px;
+  margin-left: 4px;
 }
 
 .value-txt {
-    margin-top: 0px;
+  margin-top: 0px;
 }
 
 .mobile-cta {
-    color: rgb(240, 240, 240);
-    font-size: 1.5rem;
-    margin: 0px;
+  color: rgb(240, 240, 240);
+  font-size: 1.5rem;
+  margin: 0px;
 }
 
 .benefit {
-    display: flex;
+  display: flex;
 }
 
 .icon {
-    width: 24px;
-    margin: 25px 24px 0px 0px;
-    align-self: start;
+  width: 24px;
+  margin: 25px 24px 0px 0px;
+  align-self: start;
 }
 
 .icon-location {
-    width: 20px;
-    min-width: 20px;
-    margin: 25px 24px 0px 0px;
-    align-self: start;
+  width: 20px;
+  min-width: 20px;
+  margin: 25px 24px 0px 0px;
+  align-self: start;
 }
 
 .pound-icon {
-    width: 13px;
-    min-width: 13px;
-    margin: 29px 32px 0px 2px;
-    align-self: start;
+  width: 13px;
+  min-width: 13px;
+  margin: 29px 32px 0px 2px;
+  align-self: start;
 }
 
 .icon-timer {
-    width: 20px;
-    min-width: 20px;
-    margin: 25px 24px 0px 0px;
-    align-self: start;
+  width: 20px;
+  min-width: 20px;
+  margin: 25px 24px 0px 0px;
+  align-self: start;
 }
 
 .icon-car {
-    width: 20px;
-    min-width: 20px;
-    margin: 25px 24px 0px 0px;
-    align-self: start;
+  width: 20px;
+  min-width: 20px;
+  margin: 25px 24px 0px 0px;
+  align-self: start;
 }
 
 .gallery-link {
-    font-size: 18px;
-    color: rgb(240, 240, 240);
-    text-decoration: none;
+  font-size: 18px;
+  color: rgb(240, 240, 240);
+  text-decoration: none;
 }
 
 .benefit-text {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
-h1, h2, h3, .email-address {
-    color: rgb(240, 240, 240);
-    font-weight: 300;
-    margin-bottom: 8px;
+h1,
+h2,
+h3,
+.email-address {
+  color: rgb(240, 240, 240);
+  font-weight: 300;
+  margin-bottom: 8px;
 }
 
 h2 {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
-h3, .email-address {
-    font-size: 1.25rem;
+h3,
+.email-address {
+  font-size: 1.25rem;
 }
 
 p {
-    color: #c4c4c4;
-    line-height: 150%;
+  color: #c4c4c4;
+  line-height: 150%;
 }
 
 header {
-    z-index: 999;
-    background: #232323;
-    position: sticky;
-    top: 0px;
-    margin: 0px;
-    box-shadow: 0px 3px 8px rgba(15, 15, 15, 15%);
+  z-index: 999;
+  background: #232323;
+  position: sticky;
+  top: 0px;
+  margin: 0px;
+  box-shadow: 0px 3px 8px rgba(15, 15, 15, 15%);
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 90%;
-    margin: auto;
-    max-width: 1144px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  max-width: 1144px;
 }
 
-.nav-item-home, .nav-item-gallery, .nav-item-home_gallery, .nav-item-gallery_current {
-    text-decoration: none;
+.nav-item-home,
+.nav-item-gallery,
+.nav-item-home_gallery,
+.nav-item-gallery_current {
+  text-decoration: none;
 }
 
-.nav-item-home, .nav-item-home_gallery {
-    font-weight: 600;
-    margin-right: 8px;
-    color: rgb(240, 240, 240);
+.nav-item-home,
+.nav-item-home_gallery {
+  font-weight: 600;
+  margin-right: 8px;
+  color: rgb(240, 240, 240);
 }
 
 .nav-item-gallery {
-    color: #a4a4a4;
+  color: #a4a4a4;
 }
 
 .nav-item-home_gallery {
-    font-weight: 300;
-    color: #a4a4a4;
+  font-weight: 300;
+  color: #a4a4a4;
 }
 
 .nav-item-gallery_current {
-    font-weight: 600;
-    color: rgb(240, 240, 240);
+  font-weight: 600;
+  color: rgb(240, 240, 240);
 }
 
 .menu {
-    display: flex;
-    list-style-type: none;
-    margin: 8px 0px;
+  display: flex;
+  list-style-type: none;
+  margin: 8px 0px;
 }
 
 .nav-btn {
-    padding: 8px 16px;
-    margin: 0px;
+  padding: 8px 16px;
+  margin: 0px;
 }
 
 hr {
-    border: 1px solid rgba(255, 255, 255, 8%);
+  border: 1px solid rgba(255, 255, 255, 8%);
 }
 
-
 h1 {
-    font-size: 4rem;
-    font-weight: 300;
-    line-height: 120%;
-    margin-top: 24px;
+  font-size: 4rem;
+  font-weight: 300;
+  line-height: 120%;
+  margin-top: 24px;
 }
 
 .mobile-cta {
-    font-size: 24px;
-    font-weight: 600;
+  font-size: 24px;
+  font-weight: 600;
 }
 
-.tel, .value-prop-tel {
-    color:rgb(240, 240, 240);
-    text-decoration: none;
+.tel,
+.value-prop-tel {
+  color: rgb(240, 240, 240);
+  text-decoration: none;
 }
 
 .testimonial-card {
-    background: rgba(255, 255, 255, 5%);
-    font-size: 14px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    margin: 20px 0px;
+  background: rgba(255, 255, 255, 5%);
+  font-size: 14px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 20px 0px;
 }
 
 .contact-details {
-    margin-top: 48px;
+  margin-top: 48px;
 }
 
 .icon-small {
-    width: 14px;
-    margin-right: 8px;
+  width: 14px;
+  margin-right: 8px;
 }
 
 .logo {
-    margin-top: 8px;
+  margin-top: 8px;
 }
 
 @media (min-width: 560px) {
-    .testimonials-container {
-        display: grid;
-        grid-template-columns: 49% 49%;
-        grid-row: auto auto;
-        grid-column-gap: 2%;
-        grid-row-gap: 8%;
-        margin-top: 24px;
-    }
+  .testimonials-container {
+    display: grid;
+    grid-template-columns: 49% 49%;
+    grid-row: auto auto;
+    grid-column-gap: 2%;
+    grid-row-gap: 8%;
+    margin-top: 24px;
+  }
 
-    .testimonial-card {
-        margin: 0px;
-    }
+  .testimonial-card {
+    margin: 0px;
+  }
 
-    h2 {
-        font-size: 2.25rem;
-    }
+  h2 {
+    font-size: 2.25rem;
+  }
 
-    h3, .email-address {
-        font-size: 1.5rem;
-    }
+  h3,
+  .email-address {
+    font-size: 1.5rem;
+  }
 
-    .intro {
-        width:40%;
-    }
+  .intro {
+    width: 40%;
+  }
 
-    .how-to-contact {
-        max-width: 480px;
-    }
+  .how-to-contact {
+    max-width: 480px;
+  }
 
-    .logo-image {
-        width: 200px;
-    }
+  .logo-image {
+    width: 200px;
+  }
 
-    .nav-item-home, .nav-item-home_gallery {
-        margin-right: 24px;
-    }
+  .nav-item-home,
+  .nav-item-home_gallery {
+    margin-right: 24px;
+  }
 
-    .icon {
-        width: 24px;
-        margin: 25px 24px 0px 0px;
-        align-self: start;
-    }
-    
-    .icon-location {
-        width: 24px;
-        min-width: 24px;
-        margin: 25px 24px 0px 0px;
-        align-self: start;
-    }
-    
-    .pound-icon {
-        width: 16px;
-        min-width: 16px;
-        margin: 29px 32px 0px 2px;
-        align-self: start;
-    }
-    
-    .icon-timer {
-        width: 24px;
-        min-width: 24px;
-        margin: 25px 24px 0px 0px;
-        align-self: start;
-    }
-    
-    .icon-car {
-        width: 24px;
-        min-width: 24px;
-        margin: 25px 24px 0px 0px;
-        align-self: start;
-    }
+  .icon {
+    width: 24px;
+    margin: 25px 24px 0px 0px;
+    align-self: start;
+  }
+
+  .icon-location {
+    width: 24px;
+    min-width: 24px;
+    margin: 25px 24px 0px 0px;
+    align-self: start;
+  }
+
+  .pound-icon {
+    width: 16px;
+    min-width: 16px;
+    margin: 29px 32px 0px 2px;
+    align-self: start;
+  }
+
+  .icon-timer {
+    width: 24px;
+    min-width: 24px;
+    margin: 25px 24px 0px 0px;
+    align-self: start;
+  }
+
+  .icon-car {
+    width: 24px;
+    min-width: 24px;
+    margin: 25px 24px 0px 0px;
+    align-self: start;
+  }
 }
 
 @media (min-width: 824px) {
-    .our-service-container {
-        display: flex;
-        justify-content: space-between;
-    }
+  .our-service-container {
+    display: flex;
+    justify-content: space-between;
+  }
 
-    .our-service, .suitable {
-        max-width: 49%;
-    }
+  .our-service,
+  .suitable {
+    max-width: 49%;
+  }
 }
 
 @media (max-width: 824px) {
-    .our-service {
-        padding-bottom: 16px;
-    }
+  .our-service {
+    padding-bottom: 16px;
+  }
 
-    .suitable {
-        padding-top: 16px;
-    }
+  .suitable {
+    padding-top: 16px;
+  }
 }
 
-@media (max-width: 720px){
-    .value-prop-container {
-        align-items: flex-start;
-        margin-top: 0px;
-    }
+@media (max-width: 720px) {
+  .value-prop-container {
+    align-items: flex-start;
+    margin-top: 0px;
+  }
 
-    .container {
-        display: none;
-    } 
+  .container {
+    display: none;
+  }
 }
 
 .business-hours {
-    width: 264px;
+  width: 264px;
 }
 
 @media (min-width: 1024px) {
-    .testimonials-container {
-        display: flex;
-        padding: 0px;
-        text-align: center;
-        justify-content: space-between;
-    }
+  .testimonials-container {
+    display: flex;
+    padding: 0px;
+    text-align: center;
+    justify-content: space-between;
+  }
 
-    .testimonial-card {
-        width: 25%;
-        border-radius: 2px;
-        margin: 0px;
-    }
+  .testimonial-card {
+    width: 25%;
+    border-radius: 2px;
+    margin: 0px;
+  }
 
-    .value-prop-container, .contact-details-container {
-        display: flex;
-        justify-content: space-between;
-    }
+  .value-prop-container,
+  .contact-details-container {
+    display: flex;
+    justify-content: space-between;
+  }
 
-    .hero-image {
-        margin: 0px;
-    }
+  .hero-image {
+    margin: 0px;
+  }
 
-    .how-to-contact {
-        width: 40%;
-    }
+  .how-to-contact {
+    width: 40%;
+  }
 
-    .contact-details {
-        margin-top: 0px;
-        margin-right: 4%;
-    }
+  .contact-details {
+    margin-top: 0px;
+    margin-right: 4%;
+  }
 
-    .mobile-cta {
-        margin: 48px 0px 0px 0px;
-        font-size: 1.75rem;
-    }
+  .mobile-cta {
+    margin: 48px 0px 0px 0px;
+    font-size: 1.75rem;
+  }
 
-    .hero-grid {
-        display: grid;
-        grid-template-columns: 2fr 1fr 4fr;
-        max-width: 572px;
-    }
+  .hero-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 4fr;
+    max-width: 572px;
+  }
 
-    .hero-image {
-        grid-column: 1 / span 2;
-        grid-row: 1 / span 1;
-        align-self: center;
-        position: relative;
-        z-index: 1;
-        box-shadow: 0px 5px 60px rgba(15, 15, 15, 40%);
-    }
+  .hero-image {
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 1;
+    align-self: center;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0px 5px 60px rgba(15, 15, 15, 40%);
+  }
 
-    .hero-image-after {
-        grid-column: 4 / span 2;
-        grid-row: 1 / span 1;
-        box-shadow: 0px 5px 60px rgba(15, 15, 15, 40%);
-    }
+  .hero-image-after {
+    grid-column: 4 / span 2;
+    grid-row: 1 / span 1;
+    box-shadow: 0px 5px 60px rgba(15, 15, 15, 40%);
+  }
 }
 
 @media (min-width: 720px) {
-    .benefits-container {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-column-gap: 15%;
-        grid-row-gap: 56px;
-        margin: 24px 4% 0 4%;
-    }
+  .benefits-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 15%;
+    grid-row-gap: 56px;
+    margin: 24px 4% 0 4%;
+  }
 
-    h1 {
-        font-size: 4.5rem;
-        font-weight: 300;
-        margin-top: 0px;
-        line-height: 115%;
-    }
+  h1 {
+    font-size: 4.5rem;
+    font-weight: 300;
+    margin-top: 0px;
+    line-height: 115%;
+  }
 
-    .before-after-img {
-        display: flex;
-        justify-content: space-between;
-        margin: auto;
-    }
+  .before-after-img {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+  }
 
-    /*this is supposedly bad for accessibility, change? */
-    .image-toggle {
-        display: none;
-    }
+  /*this is supposedly bad for accessibility, change? */
+  .image-toggle {
+    display: none;
+  }
 
-    .carousel-container {
-        display: none;
-    }
+  .carousel-container {
+    display: none;
+  }
 }
 
 .testimonial-divider {
-    margin: 0px auto;
-    color: rgba(255, 255, 255, 5%);
+  margin: 0px auto;
+  color: rgba(255, 255, 255, 5%);
 }
 
 .testimonial-quote {
-    color: rgb(240, 240, 240);
-    margin: 16px;
-    text-align: center;
-    font-size: 1rem;
+  color: rgb(240, 240, 240);
+  margin: 16px;
+  text-align: center;
+  font-size: 1rem;
 }
 
 .divider {
-    border: 1px solid rgba(255, 255, 255, 8%);
-    margin: 22px 0px;
+  border: 1px solid rgba(255, 255, 255, 8%);
+  margin: 22px 0px;
 }
 
 .contact-details {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .contact-details-container {
-    background: #212121;
-    padding: 24px 4%;
-    margin: 24px 0px;
+  background: #212121;
+  padding: 24px 4%;
+  margin: 24px 0px;
 }
 
-section  {
-    margin-top: 80px;
+section {
+  margin-top: 80px;
 }
 
-.phone-number, .email {
-    display: flex;
+.phone-number,
+.email {
+  display: flex;
 }
 
 sup {
-    color: grey;
+  color: grey;
 }
 
 .testimonial-customer {
-    height: 48px;
-    width: 90%;
-    margin: auto;
+  height: 48px;
+  width: 90%;
+  margin: auto;
 }
 
 .testimonial-quote-wrapper {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .email-address {
-    text-decoration: none;
-    margin-top: 22px;
-    font-size: 1.8rem;
+  text-decoration: none;
+  margin-top: 22px;
+  font-size: 1.8rem;
 }
 
 .small-heading {
-    font-size: 14px;
-    margin: 0px;
+  font-size: 14px;
+  margin: 0px;
 }
 
 sup {
-    font-size: 12px;
+  font-size: 12px;
 }
 
 .number {
-    margin: 0px;
-    font-size: 1.8rem;
+  margin: 0px;
+  font-size: 1.8rem;
 }
 
 .email {
-    margin-top: 40px;
-    display: flex;
-    align-items: flex-start;
+  margin-top: 40px;
+  display: flex;
+  align-items: flex-start;
 }
 
 span {
-    color: ababab;
-    font-weight: 300;
+  color: ababab;
+  font-weight: 300;
 }
 
-.mon-thurs, .friday {
-    display: flex;
-    justify-content: space-between;
-    color: rgb(240, 240, 240);
+.mon-thurs,
+.friday {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(240, 240, 240);
 }
 
 footer {
-    margin-top: 80px;
+  margin-top: 80px;
 }
 
 @media (min-width: 785px) {
-    footer {
-        display: flex;
-        justify-content: space-between;
-        margin-top: 80px;
-        padding-bottom: 24px;
-        align-items: flex-end;
-    }
+  footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    padding-bottom: 24px;
+    align-items: flex-end;
+  }
 }
 
 @media (max-width: 785px) {
-    .business-hours {
-        margin-bottom: 40px;
-    }
+  .business-hours {
+    margin-bottom: 40px;
+  }
 }
 
 @media (min-width: 715px) {
-    .mon-thurs, .friday {
-        justify-content: space-between;
-    }
+  .mon-thurs,
+  .friday {
+    justify-content: space-between;
+  }
 }
 
 a:hover {
-    color: white;
-    text-decoration: underline;
+  color: white;
+  text-decoration: underline;
 }
 
 a:active {
-    color: #ababab;
-    text-decoration: underline;
+  color: #ababab;
+  text-decoration: underline;
 }
 
 .gallery-headline {
-    margin-top: 64px;
-    font-size: 2.25rem;
+  margin-top: 64px;
+  font-size: 2.25rem;
 }
 
 .images-container {
-    margin-top: 40px;
+  margin-top: 40px;
 }
 
 .blue-before {
-    width: 100%;
-    max-width: 560px;
+  width: 100%;
+  max-width: 560px;
 }
 
 @media (max-width: 420px) {
-    .tel, .email-address {
-        font-size: 1.25rem;
-    }
+  .tel,
+  .email-address {
+    font-size: 1.25rem;
+  }
 
-    .icon {
-        width: 18px;
-        margin-right: 16px;
-    }
+  .icon {
+    width: 18px;
+    margin-right: 16px;
+  }
 }
 
 @media (max-width: 328px) {
-    h1 {
-        font-size: 3rem;
-    }
+  h1 {
+    font-size: 3rem;
+  }
 
-    .mobile-cta {
-        font-size: 1.25rem;
-    }
+  .mobile-cta {
+    font-size: 1.25rem;
+  }
 }
 
 .gallery-text {
-    max-width: 560px;
+  max-width: 560px;
 }
 
 @media (max-width: 1024px) {
-    .hero-image {
-        width: 50%;
-        max-width: 480px;
-    }
-
-    .hero-image-after {
-        width: 50%;
-        max-width: 480px;
-    }
-
-    .hero-grid {
-        display: flex;
-        justify-content: space-between;
-        margin-top: 40px;
-    }
+  .hero-image {
+    width: 50%;
+    max-width: 480px;
   }
 
+  .hero-image-after {
+    width: 50%;
+    max-width: 480px;
+  }
+
+  .hero-grid {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+}
+
 @media (max-width: 715px) {
-    .hero-image {
-        width: 100%;
-    }
+  .hero-image {
+    width: 100%;
+  }
 
-    .hero-image-after {
-        width: 100%;
-    }
+  .hero-image-after {
+    width: 100%;
+  }
 
-    /*this is supposedly bad for accessibility, change */
-    .hero-image-after, .hero-image {
-        display: none;
-    }
+  /*this is supposedly bad for accessibility, change */
+  .hero-image-after,
+  .hero-image {
+    display: none;
+  }
 
-    .image-carousel {
-        display: flex;
-        justify-content: space-between;
-        margin-top: 0px;
-    }
+  .image-carousel {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+  }
 
-    .before-btn {
-        background: rgba(255, 255, 255, 10%);
-        width: 100%;
-        color: white;
-        font-weight: 600;
-        padding: 16px 0px;
-        border: none;
-    }
+  .before-btn {
+    background: rgba(255, 255, 255, 10%);
+    width: 100%;
+    color: white;
+    font-weight: 600;
+    padding: 16px 0px;
+    border: none;
+  }
 
-    .after-btn {
-        background: rgba(255, 255, 255, 5%);
-        width: 100%;
-        color: #c4c4c4;
-        font-weight: 600;
-        padding: 16px 0px;
-        border: none;
-    }
+  .after-btn {
+    background: rgba(255, 255, 255, 5%);
+    width: 100%;
+    color: #c4c4c4;
+    font-weight: 600;
+    padding: 16px 0px;
+    border: none;
+  }
+
+  .before-after-active {
+    background: red;
+  }
 }
 
 @media (max-width: 410px) {
-    .logo-image {
-        width: 144px;
-    }
+  .logo-image {
+    width: 144px;
+  }
 }
 
 @media (max-width: 390px) {
-    .nav-item-gallery_current, .nav-item-home {
-        display: none;
-        margin: 0px;
-    }
+  .nav-item-gallery_current,
+  .nav-item-home {
+    display: none;
+    margin: 0px;
+  }
 }
 
-  * {
-    box-sizing: border-box;
-  }
+* {
+  box-sizing: border-box;
+}
 
-  
-  /* css for image carousel below */
-  
-  /* Position the image container (needed to position the left and right arrows) */
-  .container {
-    position: relative;
-  }
-  
-  /* Hide the images by default */
-  .mySlides {
-    display: none;
-  }
-  
-  /* Add a pointer when hovering over the thumbnail images */
-  .cursor {
-    cursor: pointer;
-  }
-  
-  /* Next & previous buttons */
-  .prev,
-  .next {
-    cursor: pointer;
-    position: absolute;
-    top: 40%;
-    width: auto;
-    padding: 16px;
-    margin-top: -50px;
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-    -webkit-user-select: none;
-  }
-  
-  /* Position the "next button" to the right */
-  .next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-  }
-  
-  /* On hover, add a black background color with a little bit see-through */
-  .prev:hover,
-  .next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-    text-decoration: none;
-  }
-  
-  /* Number text (1/3 etc) */
-  .numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-  }
-  
-  /* Container for image text */
-  .caption-container {
-    text-align: center;
-    background-color: #222;
-    padding: 2px 16px;
-    color: white;
-  }
-  
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  /* 5 columns side by side */
-  .column {
-    float: left;
-    width: 20%;
-  }
-  
-  /* Add a transparency effect for thumnbail images */
-  .demo {
-    opacity: 0.6;
-  }
-  
-  .active,
-  .demo:hover {
-    opacity: 1;
-  }
+/* css for image carousel below */
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  text-decoration: none;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* 5 columns side by side */
+.column {
+  float: left;
+  width: 20%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
 /*end of carousel styling*/
 
 .before-after-container {
-    margin-top: 56px;
+  margin-top: 56px;
 }
-
-  
-  

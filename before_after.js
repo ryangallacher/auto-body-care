@@ -33,13 +33,17 @@ class BeforeAfter extends React.Component {
           <div className="row">
             <div className="image-carousel">
               <button
-                className="before-btn demo cursor"
+                className={`before-btn demo cursor ${
+                  this.state.showBefore ? "before-after-active" : ""
+                }`}
                 onClick={() => this.setShowBefore(true)}
               >
                 Before
               </button>
               <button
-                className="after-btn demo cursor"
+                className={`after-btn demo cursor ${
+                  !this.state.showBefore ? "before-after-active" : ""
+                }`}
                 onClick={() => this.setShowBefore(false)}
               >
                 After
