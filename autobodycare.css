@@ -657,6 +657,13 @@ a:active {
     font-weight: 600;
     color: white;
   }
+
+  .hero-grid {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+  }
+}
 }
 
 @media (max-width: 410px) {
@@ -765,5 +772,5 @@ a:active {
 /*end of carousel styling*/
 
 .before-after-container {
-  margin-top: 56px;
+  margin-top: 48px;
 }
