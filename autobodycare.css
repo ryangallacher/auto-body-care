@@ -589,6 +589,14 @@ a:active {
   .mobile-cta {
     font-size: 1.25rem;
   }
+
+  .logo-image {
+      width: 130px;
+  }
+
+  .business-hours {
+      width: 100%
+  }
 }
 
 .gallery-text {
@@ -772,5 +780,5 @@ a:active {
 /*end of carousel styling*/
 
 .before-after-container {
-  margin-top: 48px;
+  margin-top: 40px;
 }
