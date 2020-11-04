@@ -334,7 +334,7 @@ h1 {
   width: 264px;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1060px) {
   .testimonials-container {
     display: flex;
     padding: 0px;
@@ -603,7 +603,7 @@ a:active {
   max-width: 560px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1060px) {
   .hero-image {
     width: 50%;
     max-width: 480px;
