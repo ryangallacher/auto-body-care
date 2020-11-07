@@ -25,6 +25,10 @@ body {
   padding: 24px 4%;
 }
 
+.testimonial-divider, .testimonial-card {
+    background: rgba(255, 255, 255, 5%);
+}
+
 .gallery-link-container {
   margin: 16px 0px 0px 0px;
 }
@@ -41,6 +45,7 @@ body {
 .value-txt {
   margin-top: 0px;
 }
+
 
 .mobile-cta {
   color: rgb(240, 240, 240);
@@ -200,7 +205,6 @@ h1 {
 }
 
 .testimonial-card {
-  background: rgba(255, 255, 255, 5%);
   font-size: 14px;
   text-align: center;
   display: flex;
@@ -330,10 +334,6 @@ h1 {
   }
 }
 
-.business-hours {
-  width: 264px;
-}
-
 @media (min-width: 1060px) {
   .testimonials-container {
     display: flex;
@@ -428,7 +428,6 @@ h1 {
 
 .testimonial-divider {
   margin: 0px auto;
-  color: rgba(255, 255, 255, 5%);
 }
 
 .testimonial-quote {
@@ -507,7 +506,7 @@ sup {
 }
 
 span {
-  color: ababab;
+  color: #ababab;
   font-weight: 300;
 }
 
@@ -529,12 +528,6 @@ footer {
     margin-top: 80px;
     padding-bottom: 24px;
     align-items: flex-end;
-  }
-}
-
-@media (max-width: 785px) {
-  .business-hours {
-    margin-bottom: 40px;
   }
 }
 
@@ -593,10 +586,6 @@ a:active {
   .logo-image {
       width: 130px;
   }
-
-  .business-hours {
-      width: 100%
-  }
 }
 
 .gallery-text {
@@ -642,7 +631,7 @@ a:active {
     margin-top: 0px;
   }
 
-  .before-btn {
+  .before-btn, .after-btn {
     background: rgba(255, 255, 255, 8%);
     width: 100%;
     color: white;
@@ -652,12 +641,7 @@ a:active {
   }
 
   .after-btn {
-    background: rgba(255, 255, 255, 8%);
-    width: 100%;
     color: #c4c4c4;
-    font-weight: 600;
-    padding: 16px 0px;
-    border: none;
   }
 
   .before-after-active {
