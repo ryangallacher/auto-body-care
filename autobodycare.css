@@ -25,7 +25,10 @@ body {
   padding: 24px 4%;
 }
 
-.can-help {
+.can-help, 
+.before-after-container, 
+.email, 
+.images-container {
   margin-top: 40px;
 }
 
@@ -162,10 +165,7 @@ nav {
   color: rgb(240, 240, 240);
 }
 
-.nav-item-gallery {
-  color: #a4a4a4;
-}
-
+.nav-item-gallery, 
 .nav-item-home_gallery {
   font-weight: 300;
   color: #a4a4a4;
@@ -199,7 +199,7 @@ h1 {
 }
 
 .mobile-cta {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 600;
 }
 
@@ -210,7 +210,7 @@ h1 {
 }
 
 .testimonial-card {
-  font-size: 14px;
+  font-size: 0.875rem;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -271,38 +271,30 @@ h1 {
     margin-right: 24px;
   }
 
+  .icon-timer, 
+  .icon-car, 
+  .icon-location,
   .icon {
-    width: 24px;
-    margin: 25px 24px 0px 0px;
     align-self: start;
   }
 
-  .icon-location {
+  .icon {
     width: 24px;
-    min-width: 24px;
     margin: 25px 24px 0px 0px;
-    align-self: start;
   }
 
   .pound-icon {
     width: 16px;
     min-width: 16px;
     margin: 29px 32px 0px 2px;
-    align-self: start;
   }
 
-  .icon-timer {
+  .icon-timer, 
+  .icon-car, 
+  .icon-location {
     width: 24px;
     min-width: 24px;
     margin: 25px 24px 0px 0px;
-    align-self: start;
-  }
-
-  .icon-car {
-    width: 24px;
-    min-width: 24px;
-    margin: 25px 24px 0px 0px;
-    align-self: start;
   }
 }
 
@@ -471,10 +463,6 @@ section {
   display: flex;
 }
 
-sup {
-  color: grey;
-}
-
 .testimonial-customer {
   height: 48px;
   width: 90%;
@@ -508,22 +496,23 @@ sup {
   font-size: 1.8rem;
 }
 
-.email {
-  margin-top: 40px;
-  display: flex;
-  align-items: flex-start;
-}
-
-span {
-  color: #ababab;
-  font-weight: 300;
-}
-
 .mon-thurs,
 .friday {
   display: flex;
   justify-content: space-between;
   color: rgb(240, 240, 240);
+}
+
+
+.email {
+  display: flex;
+  align-items: flex-start;
+}
+
+span, 
+sup {
+  color: #ababab;
+  font-weight: 300;
 }
 
 footer {
@@ -562,10 +551,6 @@ a:active {
   font-size: 2.25rem;
 }
 
-.images-container {
-  margin-top: 40px;
-}
-
 .blue-before {
   width: 100%;
   max-width: 560px;
@@ -602,11 +587,7 @@ a:active {
 }
 
 @media (max-width: 1060px) {
-  .hero-image {
-    width: 50%;
-    max-width: 480px;
-  }
-
+  .hero-image, 
   .hero-image-after {
     width: 50%;
     max-width: 480px;
@@ -620,10 +601,7 @@ a:active {
 }
 
 @media (max-width: 715px) {
-  .hero-image {
-    width: 100%;
-  }
-
+  .hero-image, 
   .hero-image-after {
     width: 100%;
   }
@@ -634,7 +612,8 @@ a:active {
     display: none;
   }
 
-  .image-carousel {
+  .image-carousel, 
+  .hero-grid {
     display: flex;
     justify-content: space-between;
     margin-top: 0px;
@@ -657,12 +636,6 @@ a:active {
     background: rgba(255, 255, 255, 20%);
     font-weight: 600;
     color: white;
-  }
-
-  .hero-grid {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 0px;
   }
 }
 
@@ -698,7 +671,6 @@ a:active {
   cursor: pointer;
 }
 
-/* Next & previous buttons */
 .prev,
 .next {
   cursor: pointer;
@@ -715,12 +687,10 @@ a:active {
   -webkit-user-select: none;
 }
 
-/* Position the "next button" to the right */
 .next {
   right: 0;
 }
 
-/* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
@@ -733,13 +703,11 @@ a:active {
   clear: both;
 }
 
-/* 5 columns side by side */
 .column {
   float: left;
   width: 20%;
 }
 
-/* Add a transparency effect for thumnbail images */
 .demo {
   opacity: 0.6;
 }
@@ -749,7 +717,3 @@ a:active {
   opacity: 1;
 }
 /*end of carousel styling*/
-
-.before-after-container {
-  margin-top: 40px;
-}
