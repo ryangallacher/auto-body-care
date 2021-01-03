@@ -29,7 +29,7 @@ class BeforeAfter extends React.Component {
       <div>
         <div className="carousel-container">
           <div className="numbertext"></div>
-          <img src={imageUrl} style={{ width: "100%" }} alt={alt} />
+          <img src={imageUrl} loading={"lazy"} style={{ width: "100%" }} alt={alt} />
           <div className="row">
             <div className="image-carousel">
               <button
