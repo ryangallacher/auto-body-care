@@ -151,6 +151,13 @@ nav {
   max-width: 1144px;
 }
 
+.before-after-parent {
+  display: inline-block;
+  width: 100%;
+  /* TODO FM - Change me on media queries*/
+  min-height: 450px; 
+}
+
 .nav-item-home,
 .nav-item-gallery,
 .nav-item-home_gallery,
